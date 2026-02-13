@@ -19,7 +19,7 @@ const AdminDashboard = () => {
     }, [navigate]);
 
     const fetchProducts = () => {
-        fetch('http://localhost:3001/api/products')
+        fetch('/api/products')
             .then(res => res.json())
             .then(data => setProducts(data))
             .catch(err => console.error('Error:', err));
@@ -32,7 +32,7 @@ const AdminDashboard = () => {
 
     const handleDelete = (id) => {
         if (window.confirm('¿Estás seguro de que quieres eliminar este producto?')) {
-            fetch(`http://localhost:3001/api/products/${id}`, { method: 'DELETE' })
+            fetch(`/api/products/${id}`, { method: 'DELETE' })
                 .then(res => res.json())
                 .then(data => {
                     if (data.success) fetchProducts();

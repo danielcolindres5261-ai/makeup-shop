@@ -37,7 +37,7 @@ const Cart = ({ cart, setCart }) => {
 
         if (cart.length === 0) return;
 
-        fetch('http://localhost:3001/api/order', {
+        fetch('/api/order', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

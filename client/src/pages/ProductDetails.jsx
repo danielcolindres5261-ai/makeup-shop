@@ -10,7 +10,7 @@ const ProductDetails = ({ addToCart }) => {
     const [added, setAdded] = useState(false);
 
     useEffect(() => {
-        fetch(`http://localhost:3001/api/products/${id}`)
+        fetch(`/api/products/${id}`)
             .then(res => res.json())
             .then(data => {
                 setProduct(data);
