@@ -45,7 +45,7 @@ const ProductDetails = ({ addToCart }) => {
                 <div className="info-section">
                     <p className="brand-badge">{product.brand}</p>
                     <h1 className="details-title">{product.name}</h1>
-                    <p className="details-price">${product.price.toFixed(2)}</p>
+                    <p className="details-price">Q{product.price.toFixed(2)}</p>
 
                     <div className="details-description">
                         <h3>Descripción</h3>

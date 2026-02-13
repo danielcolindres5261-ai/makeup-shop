@@ -79,7 +79,7 @@ const AdminDashboard = () => {
                                 </td>
                                 <td>{product.name}</td>
                                 <td>{product.brand}</td>
-                                <td>${Number(product.price).toFixed(2)}</td>
+                                <td>Q{Number(product.price).toFixed(2)}</td>
                                 <td>
                                     <div className="action-buttons">
                                         <button className="icon-btn edit" onClick={() => openModal(product)}>
@@ -139,8 +139,8 @@ const ProductModal = ({ product, onClose, onSave }) => {
         e.preventDefault();
         const method = product ? 'PUT' : 'POST';
         const url = product
-            ? `http://localhost:3001/api/products/${product.id}`
-            : 'http://localhost:3001/api/products';
+            ? `/api/products/${product.id}`
+            : '/api/products';
 
         fetch(url, {
             method,

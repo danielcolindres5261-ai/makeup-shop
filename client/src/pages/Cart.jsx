@@ -89,7 +89,7 @@ const Cart = ({ cart, setCart }) => {
                             <img src={item.imageUrl} alt={item.name} className="cart-item-image" />
                             <div className="cart-item-info">
                                 <h3>{item.name}</h3>
-                                <p className="cart-item-price">${item.price.toFixed(2)}</p>
+                                <p className="cart-item-price">Q{item.price.toFixed(2)}</p>
                             </div>
                             <div className="cart-item-actions">
                                 <div className="quantity-controls">
@@ -104,7 +104,7 @@ const Cart = ({ cart, setCart }) => {
                         </div>
                     ))}
                     <div className="cart-total">
-                        <h3>Total: ${total.toFixed(2)}</h3>
+                        <h3>Total: Q{total.toFixed(2)}</h3>
                     </div>
                 </div>
 
