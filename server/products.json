@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Labial Mate de Larga Duración",
+    "brand": "GlowBeauty",
+    "price": 250,
+    "description": "Un labial con acabado mate aterciopelado que dura todo el día sin resecar tus labios. Tono rojo intenso para una noche inolvidable.",
+    "imageUrl": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?q=80&w=800&auto=format&fit=crop",
+    "category": "labios"
+  },
+  {
+    "id": 2,
+    "name": "Paleta de Sombras 'Golden Hour'",
+    "brand": "LuxeVisage",
+    "price": 850,
+    "description": "12 tonos altamente pigmentados en acabados mate y metálicos, inspirados en los colores del atardecer. Perfecta para looks de día y de noche.",
+    "imageUrl": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop",
+    "category": "ojos"
+  },
+  {
+    "id": 3,
+    "name": "Base Líquida SkinPerfect",
+    "brand": "SkinPerfect",
+    "price": 450,
+    "description": "Base de maquillaje ligera pero con cobertura total. Acabado natural, hidratante y resistente al agua para una piel radiante.",
+    "imageUrl": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?q=80&w=800&auto=format&fit=crop",
+    "category": "rostro"
+  },
+  {
+    "id": 4,
+    "name": "Iluminador Líquido 'Starlight'",
+    "brand": "GlowBeauty",
+    "price": 320,
+    "description": "Brillo instantáneo para tu rostro. Fórmula ligera que se funde con la piel.",
+    "imageUrl": "https://images.unsplash.com/photo-1599305090598-fe179d501227?q=80&w=800&auto=format&fit=crop",
+    "category": "rostro"
+  },
+  {
+    "id": 5,
+    "name": "Máscara de Pestañas Volumen Extremo",
+    "brand": "LuxeVisage",
+    "price": 280,
+    "description": "Pestañas más largas y con volumen dramático en una sola pasada.",
+    "imageUrl": "https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?q=80&w=800&auto=format&fit=crop",
+    "category": "ojos"
+  }
+]

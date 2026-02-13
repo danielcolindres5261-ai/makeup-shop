@@ -1,0 +1,103 @@
+.product-details-container {
+    padding: 2rem 0;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text-light);
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: var(--color-primary);
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow-md);
+}
+
+.image-section {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.details-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.details-image:hover {
+    transform: scale(1.1);
+    /* Simple zoom effect */
+    cursor: zoom-in;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-badge {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.details-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.details-price {
+    font-size: 2rem;
+    color: var(--color-primary);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.details-description h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.details-description p {
+    line-height: 1.6;
+    color: var(--color-text-light);
+    margin-bottom: 2rem;
+}
+
+.add-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.add-btn.added {
+    background-color: #4CAF50;
+    /* Green for success */
+}
+
+@media (max-width: 768px) {
+    .details-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
